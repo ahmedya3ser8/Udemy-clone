@@ -4,4 +4,46 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.header-carousel-button {
+  background-color: #1c1d1f;
+  height: 3rem;
+  width: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+}
+
+.header-carousel .carousel-inner img {
+  height: 400px;
+}
+
+.carousel-control-prev {
+  left: 1.25rem;
+}
+
+.carousel-control-next {
+  right: 1.25rem;
+}
+
+.header-box {
+  position: absolute;
+  top: 4rem;
+  left: 5rem;
+  background-color: #fff;
+  padding: 1.25rem;
+  max-width: 23.4375rem;
+}
+.header-box h4 {
+  font-size: 1.9375rem;
+  font-weight: bold;
+}
+.header-box p {
+  font-size: 0.9375rem;
+}
+.header-box .box-btn {
+  padding: 0.625rem;
 }/*# sourceMappingURL=main.css.map */

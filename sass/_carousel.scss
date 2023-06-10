@@ -1,0 +1,52 @@
+@function rem($value) {
+  $sizeValue: ($value / 16)+rem;
+  @return $sizeValue;
+}
+
+.header-carousel-button {
+  background-color: #1c1d1f;
+  height: rem(48);
+  width: rem(48);
+  padding: rem(16);
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+}
+
+.header-carousel {
+  .carousel-inner {
+    img {
+      height: 400px;
+    }
+  }
+}
+
+.carousel-control-prev {
+  left: rem(20);
+}
+
+.carousel-control-next {
+  right: rem(20);
+}
+
+.header-box {
+  & {
+    position: absolute;
+    top: rem(64);
+    left: rem(80);
+    background-color: #fff;
+    padding: rem(20);
+    max-width: rem(375);
+  }
+  h4 {
+    font-size: rem(31);
+    font-weight: bold;
+  }
+  p {
+    font-size: rem(15);
+  }
+  .box-btn {
+    padding: rem(10);
+  }
+}
