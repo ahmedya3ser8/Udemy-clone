@@ -1,3 +1,7 @@
+section {
+  margin: 3rem auto;
+}
+
 .flex-auto {
   flex: auto;
 }
@@ -46,4 +50,29 @@
 }
 .header-box .box-btn {
   padding: 0.625rem;
+}
+
+.tab-pane {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: none;
+  padding: 1.4rem;
+}
+
+.carousel-cards {
+  margin-top: 2rem;
+}
+
+.course-image {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.course-image > img {
+  width: 100%;
+}
+
+.course-info {
+  padding: 0.3rem;
+}
+.course-info .course-title {
+  font-size: 1.1rem;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

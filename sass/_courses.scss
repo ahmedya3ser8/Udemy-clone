@@ -1,0 +1,24 @@
+.tab-pane {
+  border: 1px solid rgba($color: #000, $alpha: 0.15);
+  border-top: none;
+  padding: 1.4rem;
+}
+
+.carousel-cards {
+  margin-top: 2rem;
+}
+
+.course-image {
+  border: 1px solid rgba($color: #000, $alpha: 0.15);
+  > img {
+    width: 100%;
+  }
+}
+
+.course-info {
+  padding: 0.3rem;
+  .course-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
