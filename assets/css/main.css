@@ -61,6 +61,22 @@ section {
 .carousel-cards {
   margin-top: 2rem;
 }
+.carousel-cards .carousel-inner .carousel-item-end.active, .carousel-cards .carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+.carousel-cards .carousel-inner .carousel-item-start.active, .carousel-cards .carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+.carousel-cards .carousel-inner .carousel-item.active, .carousel-cards .carousel-inner .carousel-item-next, .carousel-cards .carousel-inner .carousel-item-prev, .carousel-cards .carousel-inner .carousel-item-end {
+  display: flex;
+}
+.carousel-cards .carousel-inner .carousel-item-end, .carousel-cards .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+.course-card {
+  padding: 0.5rem;
+}
 
 .course-image {
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -72,7 +88,37 @@ section {
 .course-info {
   padding: 0.3rem;
 }
+.course-info .course-title, .course-info .course-teacher, .course-info .course-price {
+  display: block;
+}
 .course-info .course-title {
   font-size: 1.1rem;
+  font-weight: 500;
+}
+.course-info .course-teacher {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+}
+.course-info .course-rating {
+  font-size: 0.8rem;
+}
+.course-info .course-rating-starts {
+  color: #e59819;
+}
+.course-info .course-price {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.course-info .course-price-discount {
+  font-weight: normal;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+}
+.course-info .course-bestseller {
+  display: inline-block;
+  background-color: #eceb98;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
   font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

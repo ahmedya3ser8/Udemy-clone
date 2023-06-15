@@ -104,13 +104,13 @@
       <div class="feature-courses">
         <ul class="nav nav-tabs" id="feature-courses-tabs" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link text-dark active" id="python-tab" data-bs-toggle="tab" data-bs-target="#python" type="button" role="tab" aria-controls="python" aria-selected="true">Python</button>
+            <button class="nav-link text-dark active" id="python-tab" data-bs-toggle="tab" data-bs-target="#python" data-tab="python" type="button" role="tab" aria-controls="python" aria-selected="true">Python</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link text-dark" id="excel-tab" data-bs-toggle="tab" data-bs-target="#excel" type="button" role="tab" aria-controls="excel" aria-selected="false">Excel</button>
+            <button class="nav-link text-dark" id="excel-tab" data-bs-toggle="tab" data-bs-target="#excel" data-tab="excel" type="button" role="tab" aria-controls="excel" aria-selected="false">Excel</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link text-dark" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" type="button" role="tab" aria-controls="web" aria-selected="false">Web Development</button>
+            <button class="nav-link text-dark" id="web-tab" data-bs-toggle="tab" data-bs-target="#web" data-tab="web" type="button" role="tab" aria-controls="web" aria-selected="false">Web Development</button>
           </li>
         </ul>
         <div class="tab-content" id="feature-courses-Content">
@@ -124,7 +124,7 @@
               <button type="button" class="btn btn-outline-dark">Explore Python</button>
             </div>
             <div class="carousel-cards">
-              <div id="feature-courses-python" class="carousel slide" data-bs-ride="carousel">
+              <div id="feature-courses-python" class="feature-courses-python carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="col-md-3">
@@ -133,7 +133,23 @@
                           <img src="/assets/imgs/courses-01.jpg" alt="courses-img">
                         </div>
                         <div class="course-info">
-                          <div class="course-title">test</div>
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
                         </div>
                       </div>
                     </div>
@@ -145,7 +161,23 @@
                           <img src="/assets/imgs/courses-02.jpg" alt="courses-img">
                         </div>
                         <div class="course-info">
-                          <div class="course-title">test</div>
+                          <span class="course-title">Automate the Boring Stuff with Python Programming</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
                         </div>
                       </div>
                     </div>
@@ -157,17 +189,61 @@
                           <img src="/assets/imgs/courses-03.jpg" alt="courses-img">
                         </div>
                         <div class="course-info">
-                          <div class="course-title">test</div>
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-06.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#feature-courses-python" data-bs-slide="prev">
+                <button class="carousel-control-prev header-carousel-button" type="button" data-bs-target="#feature-courses-python" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#feature-courses-python" data-bs-slide="next">
+                <button class="carousel-control-next header-carousel-button" type="button" data-bs-target="#feature-courses-python" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -183,6 +259,132 @@
                 Both small businesses and large companies use Excel to turn their raw data into actionable insights.</p>
               <button type="button" class="btn btn-outline-dark">Explore Excel</button>
             </div>
+            <div class="carousel-cards">
+              <div id="feature-courses-excel" class="feature-courses-excel carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-06.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-07.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">Automate the Boring Stuff with Python Programming</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-08.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-05.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev header-carousel-button" type="button" data-bs-target="#feature-courses-excel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next header-carousel-button" type="button" data-bs-target="#feature-courses-excel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           </div>
           <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
             <div class="tab-pane-content">
@@ -192,6 +394,132 @@
                 which prompts new industries aimed at creating, managing,
                 and debugging the websites and applications that we increasingly rely on.</p>
               <button type="button" class="btn btn-outline-dark">Explore Web Development</button>
+            </div>
+            <div class="carousel-cards">
+              <div id="feature-courses-web" class="feature-courses-web carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-09.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-02.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">Automate the Boring Stuff with Python Programming</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-10.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="col-md-3">
+                      <div class="course-card">
+                        <div class="course-image">
+                          <img src="/assets/imgs/courses-04.jpg" alt="courses-img">
+                        </div>
+                        <div class="course-info">
+                          <span class="course-title">The Complete Python Bootcamp From Zero to Hero in Python</span>
+                          <span class="course-teacher">Jose Portilla</span>
+                          <div class="course-rating">
+                            <span class="course-rating-number">3.6</span>
+                            <span class="course-rating-starts">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <i class="fa-regular fa-star"></i>
+                            </span>
+                            <span class="course-rating-total">(41,162)</span>
+                          </div>
+                          <div class="course-price">€11.99
+                            <span class="course-price-discount">€120</span>
+                          </div>
+                          <span class="course-bestseller">Bestseller</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev header-carousel-button" type="button" data-bs-target="#feature-courses-web" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next header-carousel-button" type="button" data-bs-target="#feature-courses-web" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -6,6 +6,30 @@
 
 .carousel-cards {
   margin-top: 2rem;
+  .carousel-inner .carousel-item {
+    &-end.active,
+    &-next {
+      transform: translateX(25%);
+    }
+    &-start.active,
+    &-prev {
+      transform: translateX(-25%);
+    }
+    &.active,
+    &-next,
+    &-prev,
+    &-end {
+      display: flex;
+    }
+    &-end,
+    &-start {
+      transform: translateX(0);
+    }
+  }
+}
+
+.course-card {
+  padding: 0.5rem;
 }
 
 .course-image {
@@ -17,8 +41,40 @@
 
 .course-info {
   padding: 0.3rem;
+  .course {
+    &-title, &-teacher, &-price {
+      display: block;
+    }
+  }
   .course-title {
     font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .course-teacher {
+    color: rgba($color: #000, $alpha: 0.5);
+    font-size: 0.8rem;
+  }
+  .course-rating {
+    font-size: .8rem;
+    &-starts {
+      color: #e59819;
+    }
+  }
+  .course-price {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .course-price-discount {
+    font-weight: normal;
+    font-size: 1rem;
+    color: rgba($color: #000, $alpha: 0.5);
+    text-decoration: line-through;
+  }
+  .course-bestseller {
+    display: inline-block;
+    background-color: #eceb98;
+    padding: .2rem .5rem;
+    font-size: .8rem;
     font-weight: 500;
   }
 }
