@@ -1,0 +1,25 @@
+.categories {
+  .title {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.category {
+  overflow: hidden;
+  text-align: center;
+  .category-img {
+    img {
+      width: 250px;
+      transition: transform 150ms ease-in;
+    }
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .category-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0.5rem;
+  }
+}

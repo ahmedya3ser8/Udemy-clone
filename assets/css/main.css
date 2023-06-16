@@ -121,4 +121,43 @@ section {
   padding: 0.2rem 0.5rem;
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.skill-icon {
+  background-color: #777;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.skill-icon > svg {
+  padding: 1rem;
+}
+.skill-desc {
+  font-weight: bold;
+}
+
+.categories .title {
+  margin-bottom: 1.5rem;
+}
+
+.category {
+  overflow: hidden;
+  text-align: center;
+}
+.category .category-img img {
+  width: 250px;
+  transition: transform 150ms ease-in;
+}
+.category .category-img:hover {
+  transform: scale(1.05);
+}
+.category .category-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 0.5rem;
 }/*# sourceMappingURL=main.css.map */
