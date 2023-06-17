@@ -94,6 +94,7 @@ section {
 .course-info .course-title {
   font-size: 1.1rem;
   font-weight: 500;
+  padding: 0.5rem 0;
 }
 .course-info .course-teacher {
   color: rgba(0, 0, 0, 0.5);
@@ -160,4 +161,30 @@ section {
   font-size: 1.2rem;
   text-align: left;
   padding: 0.5rem;
+}
+@media (max-width: 767px) {
+  .category .category-title {
+    text-align: center;
+  }
+}
+footer ul li {
+  padding: 0.5rem;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #c6c9c7;
+  text-decoration: underline;
+}
+footer .foot-lang svg {
+  margin-right: 0.2rem;
+}
+
+.footer-copyright {
+  padding: 0.5rem 0;
+}
+.footer-copyright .footer-logo img {
+  width: 100px;
 }/*# sourceMappingURL=main.css.map */

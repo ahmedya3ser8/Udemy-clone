@@ -1,0 +1,29 @@
+footer {
+  ul {
+    li {
+      padding: .5rem;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #c6c9c7;
+        text-decoration: underline;
+      }
+    }
+  }
+  .foot-lang {
+    svg {
+      margin-right: 0.2rem;
+    }
+  }
+}
+
+.footer-copyright {
+  padding: 0.5rem 0;
+  .footer-logo {
+    img {
+      width: 100px;
+    }
+  }
+}

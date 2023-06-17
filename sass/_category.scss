@@ -21,5 +21,11 @@
     font-size: 1.2rem;
     text-align: left;
     padding: 0.5rem;
+    & {
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
   }
 }
+
